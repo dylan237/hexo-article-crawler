@@ -1,0 +1,20 @@
+{
+  "name": "hexo-article-crawler",
+  "version": "1.0.0",
+  "description": "A crawler tool based on Puppeteer, to get articles data on Hexo blogs. (NexT theme only)",
+  "author": "Dylan Liu",
+  "main": "crawler.js",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "cheerio": "^1.0.0-rc.3",
+    "figlet": "^1.4.0",
+    "inquirer": "^7.2.0",
+    "puppeteer": "^4.0.1",
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "go": "node crawler.js"
+  },
+  "license": "ISC"
+}
